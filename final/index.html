@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lights Out Game</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header class="game-header">
+           
+            <h1>Lights Out</h1>
+            <button id="resetButton" class="reset-button">Reset</button>
+        </header>
+
+        <main>
+           
+   
+
+                
+                <!-- <button id="closePopup">Close</button> -->
+           
+            <section>
+                <div class="game-info">
+                    <div class="timer">Time: <span id="time">00:00</span></div>
+                    <div class="moves">Moves: <span id="moves">0</span></div>
+                </div>
+            </section>
+
+            <section>
+                <div id="gameBoard" class="game-board"></div>
+            </section>
+        </main>
+         <h1>Addendum</h1>
+    <p>The Lights Out game was originally created by Tiger Electronics in 1995. It is a puzzle game where the goal is to switch off all the lights on a board of lights. Each light has two states: on and off. Clicking on a light toggles its state and the state of its adjacent lights (up, down, left, right). The game is known for its challenging yet addictive gameplay.</p>
+    <p>Key game development steps:</p>
+    <ul>
+        <li><b>Game Mechanics:</b> Each click toggles the clicked light and its immediate neighbors, which requires strategy and planning to solve the puzzle.</li>
+        <li><b>Solvable Setup:</b> Randomly toggling lights on the board ensures a solvable starting point for players.</li>
+        <li><b>User Experience:</b> The game design emphasizes clarity and simplicity, allowing players to focus on the puzzle.</li>
+        <li><b>Feedback and Sound:</b> Visual and auditory feedback provide satisfying interactions for players.</li>
+    </ul>
+    <p>Enjoy playing the Lights Out game! Practice solving puzzles and improve your strategy to tackle increasingly difficult boards.</p>
+</section>
+
+        <footer>
+            <p>
+                Last updated:
+                <span id="lastModified"></span>
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
